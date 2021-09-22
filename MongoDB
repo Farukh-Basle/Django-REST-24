@@ -1,0 +1,158 @@
+MongoDB
+======
+--->> MongoDB stores data in JSON-like documents, which makes the database very flexible        and scalable.
+
+pymongo module
+----- -------
+--->> Python needs a MongoDB driver to access the MongoDB database.
+
+cmd> python -m pip install pymongo
+
+
+--->> Like any other database management language, MongoDB is based on a NoSQL database that is used for storing data in a key-value pair. 
+
+--->> Its working is based on the concept of document and collection. 
+
+--->> It is also an open-source, a document-oriented, cross-platform database system that       is written using C++. 
+
+
+
+--->> Mongo DB can be defined as a document-oriented database system that uses the       concept of NoSQL. 
+
+--->> It also provides high availability, high performance, along with automatic scaling.      
+--->> This open-source product was developed by the company - 10gen in October 2007, and       the company also maintains it. 
+
+--->> MongoDB exists under the General Public License (GPL) as a free database management       tool as well as available under Commercial license as of the manufacturer. 
+      
+--->> MongoDB was also intended to function with commodity servers. Companies of       different sizes all over the world across all industries are using MongoDB as their       database.
+
+Here are some key terminologies that you must know to get into the in-depth of MongoDB:
+
+1. What is a Database?
+
+2. What are Collections?
+
+3. What is a Document?
+
+4. Popular Organizations That Use MongoDB
+
+5. Where Is MongoDB Used?
+
+6. Why Use MongoDB?
+
+7. Advantages of Using MongoDB
+
+8. Some Common Questions Related to MongoDB
+
+9. Does a MongoDB database have schemas?
+
+10. Does MongoDB provide SQL support?
+
+11. What are the various areas where MongoDB can be used?
+
+
+
+1. What is a Database?
+
+--->> In MongoDB, a database can be defined as a physical container for collections of         data. 
+--->> Here, on the file system, every database has its collection of files residing. 
+
+--->> Usually, a MongoDB server contains numerous databases.
+
+
+2. What are Collections?
+
+--->> Collections can be defined as a cluster of MongoDB documents that exist within a          single database. 
+
+--->> You can relate this to that of a table in a relational database management system. 
+--->> MongoDB collections do not implement the concept of schema. Documents that have       collection usually contain different fields. 
+
+--->> Typically, all the documents residing within a collection are meant for a       comparable or related purpose.
+
+
+
+3. What are Documents?
+
+--->> A document can be defined as a collection of key-value pairs that contain dynamic       schema. 
+
+--->> Dynamic schema is something that documents of the equal collection do not require         for having the same collection of fields or construction, and a common field is           capable of holding various types of data.
+
+NOTE :
+======
+---->> Here is a table showing the relation between the terminologies used in 
+       RDBMS and MongoDB:
+
+RDBMS	 			MongoDB
+=====				======
+Database			Database
+
+Table				Collection
+
+Tuple or Row			Document
+
+Column				Field
+
+Table Join			Embedded Documents
+
+Primary Key			Primary key / Default key
+
+Mysql db / Oracle db		mongo db
+
+
+
+
+
+
+4. Popular Organizations That Use MongoDB
+
+--->> Here is a list of some popular and multinational companies and organizations that       are using MongoDB as their official database to perform and manage different       business applications.
+
+
+for example,  Adobe , McAfee , LinkedIn , FourSquare , MetLife , eBay , SAP , 
+
+
+5. Where Is MongoDB Used?
+
+--->> Beginners need to know the purpose and requirement of why to use MongoDB or what is       the need of it in contrast to SQL and other database systems. 
+
+--->> In simple words, it can be said that every modern-day application involves the       concept of big data, analyzing different forms of data, fast features improvement       in handling data, deployment flexibility, which old database systems are not       competent enough to handle. Hence, MongoDB is the next choice.
+
+6. Why Use MongoDB?
+
+      Some basic requirements are supported by this NoSQL database, which is lacking in other database systems. These collective reasons make MongoDB popular among other database systems:
+
+---->> Document-Oriented data storage, i.e., data, is stored in a JSON style format,        which increases the readability of data as well.
+
+---->> Replication and high availability of data.
+
+---->> MongoDB provides Auto-sharding.
+
+---->> Ad hoc queries are supported by MongoDB, which helps in searching by range        queries, field, or using regex terms.
+
+---->> Indexing of values can be used to create and improve the overall search        performance in MongoDB. MongoDB allows any field to be indexed within a document.
+
+---->> MongoDB has a rich collection of queries.
+
+---->> Updating of data can be done at a faster pace.
+
+---->> It can be integrated with other popular programming languages also to handle        structured as well as unstructured data within various types of applications.
+
+
+
+8. Some Common Questions Related to MongoDB
+
+Q. Does a MongoDB database have schemas?
+
+--->> Yes, MongoDB makes use of schemas, which are dynamic schemas. In such types of       schemas, you can modify the construction of documents by merely accumulating new       fields as well as delete existing ones.
+
+
+Q. Does MongoDB provide SQL support?
+
+---->> No, MongoDB does not provide SQL support.
+
+
+Q. What are the various areas where MongoDB can be used?
+        
+--->> MongoDB can be used in supporting content management systems, online and offline       gaming applications, e-commerce systems, mobile applications, data analytics       section, archiving, as well as logging.
+
+
